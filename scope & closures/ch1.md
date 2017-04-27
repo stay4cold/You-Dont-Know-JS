@@ -1,9 +1,9 @@
-# You Don't Know JS: Scope & Closures
-# Chapter 1: What is Scope?
+# 关于JS你不知道的: 作用域 & 闭包
+# Chapter 1: 什么是作用域?
 
-One of the most fundamental paradigms of nearly all programming languages is the ability to store values in variables, and later retrieve or modify those values. In fact, the ability to store values and pull values out of variables is what gives a program *state*.
+基本所有变成语言的一个最基本特征是把数据(值)存储在变量中, 之后调用或者修改这些数据(值). 事实上, 存储数据和从变量中获取数据的能力赋予了程序一种状态(域).
 
-Without such a concept, a program could perform some tasks, but they would be extremely limited and not terribly interesting.
+如果没有这个概念, 程序也可以运行一些任务, 但是功能十分受限并且无趣.
 
 But the inclusion of variables into our program begets the most interesting questions we will now address: where do those variables *live*? In other words, where are they stored? And, most importantly, how does our program find them when it needs them?
 
